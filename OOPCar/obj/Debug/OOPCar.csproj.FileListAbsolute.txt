@@ -1,0 +1,8 @@
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\bin\Debug\OOPCar.exe.config
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\bin\Debug\OOPCar.exe
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\bin\Debug\OOPCar.pdb
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\obj\Debug\OOPCar.csproj.AssemblyReference.cache
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\obj\Debug\OOPCar.csproj.SuggestedBindingRedirects.cache
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\obj\Debug\OOPCar.csproj.CoreCompileInputs.cache
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\obj\Debug\OOPCar.exe
+C:\Users\marwa\Desktop\Opgaver\OOPCar\OOPCar\obj\Debug\OOPCar.pdb
