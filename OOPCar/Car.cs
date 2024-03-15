@@ -1,8 +1,5 @@
-﻿using System;
-
-namespace OOPCar
+﻿namespace OOPCar
 {
-    [Serializable]
     public sealed class Car
     {
         public Car(string Model = "", ushort MaxKPH = 0)
@@ -12,6 +9,11 @@ namespace OOPCar
         }
         public string Model { get; private set; }
         public ushort MaxKPH { get; private set; }
-        public Car UpdateData(Car car) => car;
+        public Car UpdateData(Car car)
+        {
+            this.Model = car.Model != this.Model ? car.Model : this.Model;
+            this.MaxKPH = car.MaxKPH != this.MaxKPH ? car.MaxKPH : this.MaxKPH;
+            return this;
+        }
     }
 }
