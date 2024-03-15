@@ -9,10 +9,10 @@
         }
         public string Model { get; private set; }
         public ushort MaxKPH { get; private set; }
-        public Car UpdateData(Car car)
+        public Car UpdateData(string model = null, ushort kph = 0)
         {
-            this.Model = car.Model != this.Model ? car.Model : this.Model;
-            this.MaxKPH = car.MaxKPH != this.MaxKPH ? car.MaxKPH : this.MaxKPH;
+            this.Model = model != this.Model ? model : this.Model;
+            this.MaxKPH = kph != this.MaxKPH ? kph : this.MaxKPH;
             return this;
         }
     }
