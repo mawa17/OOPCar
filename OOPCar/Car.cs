@@ -11,8 +11,8 @@
         public ushort MaxKPH { get; private set; }
         public Car UpdateData(string model = null, ushort kph = 0)
         {
-            this.Model = model != this.Model ? model : this.Model;
-            this.MaxKPH = kph != this.MaxKPH ? kph : this.MaxKPH;
+            this.Model = (model == null) ? this.Model : (model != this.Model) ? model : this.Model;
+            this.MaxKPH = (kph == 0) ? this.MaxKPH : (kph != this.MaxKPH) ? kph : this.MaxKPH;
             return this;
         }
     }
